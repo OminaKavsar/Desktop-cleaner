@@ -23,7 +23,7 @@ def clean_folder(folder_path):
 
 if __name__ == "__main__":
     print("Desktop Cleaner Script")
-    folder_path = 'EDIT THIS'
+    folder_path = '/Users/muhammad/Downloads'
     if os.path.isdir(folder_path):
         clean_folder(folder_path)
         print("Cleaning complete.")
